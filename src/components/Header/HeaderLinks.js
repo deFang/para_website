@@ -29,7 +29,7 @@ export default function HeaderLinks(props) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
         <Button
-          href="https://docs.parapara.io"
+          href="https://docs.paraproject.io"
           color="transparent"
           target="_blank"
           className={classes.navLink}
