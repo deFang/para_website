@@ -49,9 +49,9 @@ export default function LandingPage(props) {
         {/*<div style={{ background: `url(${background})` }}>*/}
         {/*<div style={{ backgroundColor: "#d1fdfe"}}>*/}
         <div style={{ backgroundColor: "white", paddingBottom: "5%"}}>
-          <div style={{position:"absolute", backgroundColor:"#d1fdfe", height:"100%",  top:"5%", left:"25%", right:"50%", zIndex:"0"}}>
+          <div style={{position:"absolute", backgroundColor:"#d1fdfe", height:"100%",  top:"5%", left:"15%", right:"50%", zIndex:"0"}}>
           </div>
-          <div style={{position:"absolute", backgroundColor:"#fedcd1", height:"100%",  top:"5%", right:"25%", left:"50%", zIndex:"0"}}>
+          <div style={{position:"absolute", backgroundColor:"#fedcd1", height:"100%",  top:"5%", right:"15%", left:"50%", zIndex:"0"}}>
           </div>
           <Header
             color="white"
@@ -75,16 +75,16 @@ export default function LandingPage(props) {
               <h2 style={{color:"#3C4858", fontSize: "200%", fontFamily: "Roboto"}}>
               </h2>
               <br />
-              <Button
-                color="danger"
-                size="lg"
-                href="https://justswap.io/?lang=zh-CN#/home?tokenAddress=TDTo6TSLa7F5XMHzm7ozu4jrSr9YiGkSeQ&type=swap"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i className="fas fa-play" />
-                Get PARA tokens
-              </Button>
+              {/*<Button*/}
+              {/*  color="danger"*/}
+              {/*  size="lg"*/}
+              {/*  href="https://justswap.io/?lang=zh-CN#/home?tokenAddress=TDTo6TSLa7F5XMHzm7ozu4jrSr9YiGkSeQ&type=swap"*/}
+              {/*  target="_blank"*/}
+              {/*  rel="noopener noreferrer"*/}
+              {/*>*/}
+              {/*  <i className="fas fa-play" />*/}
+              {/*  Get PARA tokens*/}
+              {/*</Button>*/}
               <br />
             </GridItem>
           </GridContainer>
