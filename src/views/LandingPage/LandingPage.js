@@ -68,12 +68,25 @@ export default function LandingPage(props) {
           />
         <div className={classes.container} style={{marginTop:"5em", }}>
           <GridContainer>
+            <GridItem xs={6} sm={6} md={6}>
+                <h1 className={classes.title} style={{color:"#000", fontSize: "400%", fontFamily: "Roboto", float:"right"}}>
+                    <span style={{fontSize: "120%", color:"#548ff7", fontFamily:"Aharoni"}}>para</span>
+                </h1>
+            </GridItem>
+            <GridItem xs={6} sm={6} md={6}>
+                <h1 className={classes.title} style={{color:"#000", fontSize: "400%", fontFamily: "Roboto", float:"left"}}>
+                    <span style={{fontSize: "120%", color:"#F79854", fontFamily:"Aharoni"}}>para</span>
+                </h1>
+            </GridItem>
             <GridItem xs={12} sm={12} md={12}>
-                <h1 className={classes.title} style={{color:"#000", fontSize: "400%", fontFamily: "Roboto"}}>
-                    <span style={{fontSize: "120%", color:"#548ff7", fontFamily:"Aharoni"}}>parapara</span>
-                    <br />a decentralized way to gain exposure to any asset.</h1>
-              <h2 style={{color:"#3C4858", fontSize: "200%", fontFamily: "Roboto"}}>
-              </h2>
+              <h5 style={{fontSize: "200%", textAlign: "center", color: "#3C4858"}}>
+                  [pær.ə.pær.ə]
+              </h5>
+            </GridItem>
+
+            <GridItem xs={12} sm={12} md={12}>
+              <h1 className={classes.title} style={{color:"#000", fontSize: "400%", fontFamily: "Roboto", textAlign:"center"}}>
+                    a decentralized way to gain exposure to any asset.</h1>
               <br />
               {/*<Button*/}
               {/*  color="danger"*/}
