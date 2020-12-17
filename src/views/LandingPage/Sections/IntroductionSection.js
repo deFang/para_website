@@ -25,8 +25,10 @@ export default function IntroductionSection() {
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.mainTitle}>What is Parapara</h2>
           <h5 className={classes.mainDescription}>
-            Parapara aims to build the most inclusive on-chain derivative DEX and provide permissionless accessibility to virtually any asset.
-            Parapara is build on TRON-network because of its high-throughput and low transaction fee.
+            <i>para-</i> from ancient Greek, meaning "alongside, beyond".
+            Parapara aims to build the most inclusive on-chain derivative DEX and provide permissionless accessibility
+            to virtually any asset.
+
           </h5>
         </GridItem>
       </GridContainer>
