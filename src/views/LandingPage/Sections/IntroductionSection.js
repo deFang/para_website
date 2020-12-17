@@ -26,7 +26,7 @@ export default function IntroductionSection() {
           <h2 className={classes.mainTitle}>What is Parapara</h2>
           <h5 className={classes.mainDescription}>
             <i>para-</i> from ancient Greek, meaning "alongside, beyond".
-            Parapara aims to build the most inclusive on-chain derivative DEX and provide permissionless accessibility
+            Parapara aims to build the most inclusive on-chain perpetual swap exchange and provide permissionless accessibility
             to virtually any asset.
 
           </h5>
