@@ -43,9 +43,8 @@ export default function TokendistSection() {
       <div>
         <GridContainer>
           <GridItem xs={12} sm={12} md={12}>
-            <li className={classes.description} style={{paddingBottom:"1rem", fontFamily: "Roboto",}}><strong>An initial supply of 1million (10%)</strong> PARA tokens is deposited into Justswap exchange
-              to bootstrap the initial distribution. The team has deposited 500,000 TRX into the pool to provide initial liquidity.
-              The team will not remove any liquidity before project launch on mainnet.</li>
+            <li className={classes.description} style={{paddingBottom:"1rem", fontFamily: "Roboto",}}><strong>An initial supply of 1million (10%)</strong> PARA tokens will be deposited to Uniswap
+              to bootstrap the initial distribution. The team will not remove any liquidity before project launch on mainnet.</li>
             <li className={classes.description} style={{paddingBottom:"1rem", fontFamily: "Roboto",}}><strong>1.5million (15%)</strong> PARA tokens are reserved for the team.
               This portion will only be issued after the mainnet launch with 2-4 years vesting.</li>
             <li className={classes.description} style={{paddingBottom:"1rem", fontFamily: "Roboto"}}><strong>7.5million (75%)</strong> PARA tokens are reserved for community members to incentive liquidity providers,

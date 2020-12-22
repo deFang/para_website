@@ -21,7 +21,7 @@ export default function TokenintroSection() {
         <GridItem xs={12} sm={12} md={12}>
           <h2 className={classes.mainTitle}>What is PARA token</h2>
           <h5 className={classes.mainDescription}>
-            The PARA token is the TRC-20 utility token of the platform and will be distributed to Paradigm community on an ongoing basis.
+            The PARA token is the ERC-20 utility token of the platform and will be distributed to Paradigm community on an ongoing basis.
           </h5>
         </GridItem>
       </GridContainer>
